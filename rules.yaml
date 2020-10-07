@@ -1,0 +1,22 @@
+Player:
+    -ConquestVictoryConditions:
+    LobbyPrerequisiteCheckbox@GLOBALBOUNTY:
+        Enabled: False
+        Locked: True
+
+World:
+    -CrateSpawner:
+    -SpawnMPUnits:
+    -MPStartLocations:
+    MusicPlaylist:
+        BackgroundMusic: intro
+        DisableWorldSounds: true
+    ResourceType@ore:
+        ValuePerUnit: 0
+    MissionObjectives: 
+        EarlyGameOver: true
+    LuaScript:
+        Scripts: einstenvsbinstein.lua
+    -StartGameNotification:
+
+
